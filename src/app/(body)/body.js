@@ -7,7 +7,7 @@ const Body = () => {
 	const [url, setUrl] = useState("");
 	const [widthAndHeight, setWidthAndHeight] = useState(300);
 	const [qrcode, setQrcode] = useState();
-	const element = document.getElementById("qrcode");
+	const element = document?.getElementById("qrcode");
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
